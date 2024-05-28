@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+  margin-inline: 27px;
+  font-size: 23px;
+}
+ul li a:hover{
+  font-size: 25px;
+  font-weight: 700;
+}
+nav h1{
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+}
+nav span{
+    color: rgb( 255, 54,19);
+}
+ul button{
+    width: 90px;
+    height: 34px;
+    background-color: rgb(255, 57, 22);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+ul button:hover{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px ;
+    margin-bottom: 5%;
+}
+.text{
+    margin-top: 80px;
+}
+.text h2{
+    font-size: 40px;
+}
+.text h1{
+    font-size: 70px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.text p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.text button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(253, 53, 18);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.text button:hover{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: transparent;
+}
+img{
+ width: 30%;
+ height: auto;
+ image-rendering: pixelated;
+}
+
+.rapper{
+    margin-top: 5%;
+}
+
+#bio{
+    cursor: pointer;
+    padding: 5px 3px;
+    width: 250%;
+    height: 250%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Mulish', sans-serif;
+
+}
+.rightbio{
+    margin-top: 5%;
+    display: flex;
+}
+.wrapper{
+    margin: 5%;
+
+}
+.info{
+   display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+}
+.names{
+    margin-right: 48%;
+}
+.froms{
+    margin-right: 5%;
+}
+#follow{
+    text-align: center;
+    margin: 5%;
+}
+#follow i{
+    color: #6ab04c;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.link-h{
+     text-align: center;
+     margin-top: 3rem;
+}
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 0 1rem;
+    border: 1px dashed gray;
+}
+#hire{
+    width: 10px;
+    height: 20px;
+    background-color: #6ab04c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.intro{
+    margin-top: 5%;
+
+}
+#services{
+    width: 100%;
+    height: 100%;
+    background : rgba(0, 0, 0, 0.02);
+    font-family:'Mulish', sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 10%;
+}
+.cardbody{
+   width: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    margin: 2%;
+    align-items: center;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+
+}
+.cardbody i{
+    font-size: 2.0rem;
+    color:#6ab04c;
+    display: flex;
+}
+.horizontal{
+    margin-top: 5%;
+}
+.mainwrap{
+    display: flex;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.fas{
+   margin-left: 40%;
+}
+.h1{
+ align-items: center;
+}
+.card{
+    display: flex;
+}
+.img{
+    width:100%;
+    height:100%;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    padding: 3%;
+}
